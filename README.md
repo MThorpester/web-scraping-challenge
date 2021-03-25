@@ -52,4 +52,4 @@ http://127.0.0.1:5000/
 ```
 Get Latest Mars Info!
 ```
-![Mission to Mars Website Image: ](https://github.com/MThorpester/COVID-Vaccinations-ETL-Project/blob/main/COVID-ETL/COVID_DB_ERD.png)
+![Mission to Mars Website Image: ](https://github.com/MThorpester/web-scraping-challenge/blob/main/Mission_to_Mars/Single-screenshot.jpg)
