@@ -22,6 +22,8 @@ It consists of:
 - a Python script (Mission_to_Mars/scrape_mars.py)
 - an HTML file (Mission_to_Mars/templates/index.html)
 - various Bootstrap CSS and Jquery files, and a background image  (Mission_to_Mars/static)
+- several screenshots of the final web page in Mission_to_Mars/ 
+    - Bottom-screenshot.jpg, Top-screenshot.jpg and Single-screenshot.jpg
 
 ## Getting Started
 
