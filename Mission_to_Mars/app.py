@@ -5,17 +5,17 @@ import scrape_mars
 # Create an instance of Flask
 app = Flask(__name__)
 
-# Use PyMongo to establish Mongo connection
+# Use PyMongo to establish Mongo connection to the Mars database
 mongo = PyMongo(app, uri="mongodb://localhost:27017/mars_db")
 
 # Route to render index.html template using data from Mongo
 @app.route("/")
 def home():
 
-    # Find one record of data from the mongo database
+    # Find one document of Mars data from the mongo database
     mars_data = mongo.db.mars_info.find_one()
 
-    # Return template and data
+    # Render the template using the retrieved Mars document and my index.html file
     return render_template("index.html", mars_data=mars_data)
 
 # Route that will trigger the scrape function

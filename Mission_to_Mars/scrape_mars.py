@@ -7,8 +7,6 @@ import os
 from webdriver_manager.chrome import ChromeDriverManager
 import time
 
-
-
 def scrape():
     # Setup Chrome Driver for use with Splinter and initialize the browser
     executable_path = {'executable_path': ChromeDriverManager().install()}
